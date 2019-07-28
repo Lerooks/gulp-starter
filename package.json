@@ -1,0 +1,38 @@
+{
+  "name": "gulp-starter",
+  "version": "1.0.0",
+  "description": "Gulp starter with SCSS, Browserify and Browsersync",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "start": "node_modules/.bin/gulp --silent",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonardo Rocha",
+  "browserslist": [
+    "> 0.25%, not dead",
+    "IE 11"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/register": "^7.4.0",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.3",
+    "browserify": "^16.2.3",
+    "dotenv": "^8.0.0",
+    "gulp": "^4.0.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {}
+}
